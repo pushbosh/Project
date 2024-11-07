@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style_cal.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <input id="num" type="number" placeholder="write first number">
+      <input id = "num2"type="number" placeholder="Second number please"> 
+      <select name="" id="select">
+        <option value="add">сложение</option>
+        <option value="subtract">вычитание</option>
+        <option value="multiply">умножение</option>
+        <option value="divide">деление</option>
+      </select>
+      <button id="knopka" onclick="calculate()">Считать</button>
+
+      <div id="result" class="result"></div>
+      <div id="error" class="error"></div>
+    </div>
+    <script src="java_cal.js"></script>
+  </body>
+</html>
